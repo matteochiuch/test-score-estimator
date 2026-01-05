@@ -1,3 +1,5 @@
+The main focus of this project is to develop a model to predict the test score of a student based on its data.
+
 The dataset df_student contains 10,000 entries and 6 columns, with no missing values across any column.
 The dataset includes 5 numerical variables and 1 categorical variable.
 
@@ -11,7 +13,7 @@ Other correlations between independent numerical variables are generally low to 
 
 
 Hours Studied, Previous Scores vs. Performance Index: Scatter plots reveal clear positive linear relationships between 'Performance Index' and 'Hours Studied' and 'Previous Scores', reinforcing the high correlation values. Students who study more or have higher previous scores tend to have higher performance indices.
-Sleep Hours vs. Performance Index: A positive trend is visible, but with more spread, indicating that while more sleep generally correlates with better performance, it's not as strong a predictor as study hours or previous scores.
+
 <img width="1790" height="1189" alt="image" src="https://github.com/user-attachments/assets/10f9fcb3-be46-4199-bf5f-524e5ebd03e3" />
 
 
