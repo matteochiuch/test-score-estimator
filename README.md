@@ -1,5 +1,6 @@
 The dataset df_student contains 10,000 entries and 6 columns, with no missing values across any column.
 The dataset includes 5 numerical variables and 1 categorical variable.
+
 <img width="686" height="447" alt="Immagine 2026-01-05 182331" src="https://github.com/user-attachments/assets/9c86d168-7111-4fa7-99fd-84f983337870" />
 
 Correlation between Numerical Variables:
@@ -15,6 +16,7 @@ Sleep Hours vs. Performance Index: A positive trend is visible, but with more sp
 
 
 All three models (Linear Regression, Random Forest, and Gradient Boosting) performed exceptionally well in predicting the 'Performance Index', each achieving an R-squared score of 0.99. Linear Regression demonstrated the best performance with the lowest Mean Squared Error (MSE) of 4.08, followed by Gradient Boosting with an MSE of 4.36, and Random Forest with an MSE of 5.16.
+
 <img width="281" height="114" alt="Immagine 2026-01-05 183110" src="https://github.com/user-attachments/assets/27f89e37-3d42-45b2-91c8-460a1a182cdb" />
 
 Linear Regression achieved the lowest Mean Squared Error (MSE) of 4.08, indicating it is the most accurate model among the three for this specific dataset and problem, followed closely by Gradient Boosting (MSE: 4.36) and Random Forest (MSE: 5.16). However, since only 2 variables are strictly correlated with the output, I tried to train one more time the Linear Regression model to see if anything changes. As expected the model performed very good as well with an R-squared of 0.99 like the previous models and just a slightly bigger MSE of 5.24, indicating that we can simplify this model to 2 variables.
